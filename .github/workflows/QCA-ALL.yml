@@ -36,8 +36,8 @@ jobs:
       #max-parallel: 3
       matrix:
         CONFIG: [IPQ807X-WIFI-YES, IPQ807X-WIFI-NO]
-        SOURCE: [VIKINGYFY/immortalwrt]
-        BRANCH: [main]
+        SOURCE: [JuliusBairaktaris/openwrt-nss-edma]
+        BRANCH: [nss-edma-rework]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
